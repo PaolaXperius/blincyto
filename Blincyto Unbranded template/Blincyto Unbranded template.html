@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta charset="utf-8">
+    <meta name="format-detection" content="telephone=no">
+
+<style type="text/css">
+table {font-family: Arial, HelveticaNeue, Helvetica, sans-serif;}
+</style>
+</head>
+
+<body style="font-family: Arial, HelveticaNeue, Helvetica, sans-serif; background-color: #ffffff; margin: 0; padding: 0;" bgcolor="#e8e8ea">
+    
+<style>
+    body {
+        font-family: Arial;
+    }
+    /* This limits the width of the select boxes with the Veeva interface so as not to break the layout */
+    
+    select {
+        max-width: 485px;
+    }
+ </style>
+    
+    
+    <div style="display:none;font-size:1px;color:#ffffff;line-height:1px;max-height:0px;max-width:0px;opacity:0;overflow:hidden;">A message from your Amgen representative.</div>
+    
+    <table cellspacing="0" cellpadding="0" bgcolor="#ffffff" width="100%" border="0" style="border-spacing: 0;border-collapse: collapse;font-family: Arial;" align="center">
+        <tr>
+            <td>    
+    
+    
+    <table align="center" border="0" cellpadding="0" cellspacing="0" style="color: #333333;" align="center">
+        <tr>
+            <td><img src="img/img-01.png" alt="Information to help you and your ALL patients">
+            </td>
+        </tr>
+        <tr>
+            <td width="500" style="padding-left: 25px; padding-right: 25px; padding-top: 25px;font-size: 18px" bgcolor="#ffffff">
+                <strong style="color:#558476">{{customText[ Hello | Hi ]}} {{customText[Dr. | Mr. | Ms.]}} {{accLname}},</strong>
+                <br>
+                <br> {{customText [Here is some important information about adult acute lymphoblastic leukemia (ALL). | Here is some important information about the NCCN Guidelines for acute lymphoblastic leukemia (ALL). | Here is some important information about educational resources and programs for acute lymphoblastic leukemia (ALL). | At your convenience, I&rsquo;d like an opportunity to speak with you about adult acute lymphoblastic leukemia (ALL). In the meantime, here is some important information about this challenging disease. | I&rsquo;d like to arrange a date and time to meet with you to discuss how Amgen can help your patients with acute lymphoblastic leukemia (ALL). In the meantime, here is some important information about this challenging disease. | It was great meeting with you to discuss adult acute lymphoblastic leukemia (ALL). I&rsquo;m sending you some additional information that you may find relevant for your practice. | Thank you for taking the time to meet with me. I&rsquo;m sending you some additional information that you may find relevant to your practice. | Sorry to have missed you on my recent visit. In anticipation of our next meeting, I wanted to share some information about adult acute lymphoblastic leukemia (ALL). | I wanted to follow up and share some information that we didn&rsquo;t get a chance to discuss. | While we were not able to connect recently, I wanted to share some information about adult acute lymphoblastic leukemia (ALL).]}}
+                <br>
+                <br>
+            </td></tr></table>
+    
+                
+                
+    <table align="center" border="0" cellpadding="0" cellspacing="0" style="color: #333333;font-family: Arial;" align="center" width="550">
+                
+
+                    {{insertEmailFragments}} 
+
+
+
+        
+</table>
+                <!-- Fragments ends -->
+        <table align="center" border="0" cellpadding="0" cellspacing="0" style="color: #333333;">
+<tr>
+                <td width="500" style="padding-left: 25px; padding-right: 25px; padding-top: 25px;font-size:18px" bgcolor="#ffffff">
+
+                <br>
+                <br>{{customText[ I look forward to our next meeting. | I look forward to our upcoming meeting. | I&rsquo;ll be in touch to set up our next meeting. | Please contact me at the phone number below with any questions. ]}}
+                <br>
+                <br> {{customText [Sincerely, | Regards, | Talk to you soon, ]}}
+                <br> {{User_Detail_vod_c.Preferred_Name_amgn_c}}
+                <br> Amgen Oncology
+                <br> {{User_Detail_vod_c.Phone_amgn_c}}
+                <br>
+                <br>
+                <strong>References:</strong>
+                <br/> {{InsertCitations}}
+                <br>
+                <br>
+        </tr>
+        <!-- footer -->
+        <tr>
+            <td width="500" bgcolor="#558476" style="color: #ffffff; font-size: 14px; padding: 27px 25px 22px 25px;line-height: 1.2;">
+                <table width="100%" style="padding:0; font-family: arial; color: #ffffff;" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                        <td colspan="3">
+                            <a href="http://www.amgen.com" style="border: none;display:block;"><img src="img/logo-amgen.png" alt="AMGEN" /></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">&nbsp;</td>
+                        <tr>
+                            <td>
+                                <b style="font-size: 18px; line-height: 24px;margin-top:24px;">Amgen</b>
+                                <br> One Amgen Center Drive
+                                <br /> Thousand Oaks, CA 91320-1799
+                                <br />
+                            </td>
+                            <td width="236" style="background:#fff;color:#558476;font-size: 22px;text-align:center;font-weight:bold; width: 236px;">
+                                <a href="http://www.understandingall.com" target="_blank" style="color:#558476;text-decoration: none;font-size:22px;">LEARN MORE &gt;</a>
+                            </td>
+                            <td width="18" style="width:18px"></td>
+                        </tr>
+                        <tr>
+                            <td colspan="3" style="line-height: 18px; font-size: 14px;">
+                                <a href="http://www.amgen.com" title="www.amgen.com" target="blank" style="color:#ffffff;text-decoration:none;">www.amgen.com</a>
+                                <br /> &copy; 2016 Amgen Inc. All rights reserved. USA-002-119052
+                            </td>
+                        </tr>
+                </table>
+            </td>
+            </tr>
+            <tr style="margin: 0;padding: 0;" bgcolor="#ffffff">
+                <td style="color: #666666; font-size: 14px; padding: 8px 25px;line-height: 1.2;" bgcolor="#ffffff" width="500">
+                    <p style="margin-bottom: 8px;">
+                        <a style="color:#666666;text-decoration:underline;" href="{{unsubscribe_product_link}}" title="Unsubscribe" target="blank">Click here</a> to unsubscribe to future emails</p>
+                    <a style="color:#666666;text-decoration:none;" href="http://wwwext.amgen.com/privacy-statement/" title="Privacy Statement" target="blank">Privacy Statement</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a style="color:#666666;text-decoration:none;" href="http://wwwext.amgen.com/terms-of-use/" title="Terms of Use" target="blank">Terms of Use</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a style="color:#666666;text-decoration:none;" href="http://www.amgen.com/contact-us/" title="Contact Us" target="blank">Contact Us</a>
+                </td>
+            </tr>
+    </table>
+            </td></tr></table>
+</body>
+
+</html>
